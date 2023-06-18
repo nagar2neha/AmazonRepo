@@ -1,0 +1,12 @@
+UtilityClass\WebEventListener.class
+Pages\HomePage.class
+Pages\DealsPage.class
+TestDataClass\DataFile.class
+ExtentReportListener\extentReportListener.class
+PracticePOM\App.class
+Pages\SignUpPage.class
+Pages\GroceryPage.class
+BaseClass\TestBase.class
+UtilityClass\TestUtil.class
+Pages\LoginPage.class
+TestDataClass\Xls_Reader.class

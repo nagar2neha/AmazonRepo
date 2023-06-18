@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-14T11:56:46 EDT" name="Surefire suite" finished-at="2023-06-14T11:58:42 EDT" duration-ms="115749">
+    <groups>
+    </groups>
+    <test started-at="2023-06-14T11:56:46 EDT" name="Surefire test" finished-at="2023-06-14T11:58:42 EDT" duration-ms="115749">
+      <class name="practicePOMTestcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:56:57 EDT" name="setUp" finished-at="2023-06-14T11:57:05 EDT" duration-ms="7270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:05 EDT" name="verifyHomePageTitleTest" finished-at="2023-06-14T11:57:05 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:05 EDT" name="tearDown" finished-at="2023-06-14T11:57:06 EDT" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:06 EDT" name="setUp" finished-at="2023-06-14T11:57:13 EDT" duration-ms="6725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:13 EDT" name="verifyUserNameTest" finished-at="2023-06-14T11:57:13 EDT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:13 EDT" name="tearDown" finished-at="2023-06-14T11:57:14 EDT" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:14 EDT" name="setUp" finished-at="2023-06-14T11:57:21 EDT" duration-ms="6663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGroceryLinkTest()[pri:3, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:21 EDT" name="verifyGroceryLinkTest" finished-at="2023-06-14T11:57:41 EDT" duration-ms="20359" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: Grocery
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M3CLOO2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31336, moz:profile: C:\Users\amitv\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e48abaf8-dc41-4815-b7f0-fd87e6ba67bd
+*** Element info: {Using=link text, value=Grocery}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Grocery
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M3CLOO2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31336, moz:profile: C:\Users\amitv\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e48abaf8-dc41-4815-b7f0-fd87e6ba67bd
+*** Element info: {Using=link text, value=Grocery}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at Pages.HomePage.clickOngroceryLink(HomePage.java:36)
+at practicePOMTestcases.HomePageTest.verifyGroceryLinkTest(HomePageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGroceryLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:41 EDT" name="tearDown" finished-at="2023-06-14T11:57:43 EDT" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:43 EDT" name="setUp" finished-at="2023-06-14T11:57:50 EDT" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDealsLinkTest()[pri:4, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:50 EDT" name="verifyDealsLinkTest" finished-at="2023-06-14T11:57:51 EDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.HomePageTest@473b46c3]" started-at="2023-06-14T11:57:51 EDT" name="tearDown" finished-at="2023-06-14T11:57:53 EDT" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practicePOMTestcases.HomePageTest -->
+      <class name="practicePOMTestcases.DealsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.DealsPageTest@15d9bc04]" started-at="2023-06-14T11:56:46 EDT" name="setUp" finished-at="2023-06-14T11:56:54 EDT" duration-ms="8304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAmazonDevicesLink()[pri:2, instance:practicePOMTestcases.DealsPageTest@15d9bc04]" started-at="2023-06-14T11:56:54 EDT" name="verifyAmazonDevicesLink" finished-at="2023-06-14T11:56:56 EDT" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonDevicesLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.DealsPageTest@15d9bc04]" started-at="2023-06-14T11:56:56 EDT" name="tearDown" finished-at="2023-06-14T11:56:57 EDT" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practicePOMTestcases.DealsPageTest -->
+      <class name="practicePOMTestcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:57:53 EDT" name="setUp" finished-at="2023-06-14T11:57:57 EDT" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:57:57 EDT" name="loginPageTitleTest" finished-at="2023-06-14T11:57:57 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:57:57 EDT" name="tearDown" finished-at="2023-06-14T11:57:58 EDT" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:57:58 EDT" name="setUp" finished-at="2023-06-14T11:58:02 EDT" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogoImageTest()[pri:2, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:58:02 EDT" name="LogoImageTest" finished-at="2023-06-14T11:58:03 EDT" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:58:03 EDT" name="tearDown" finished-at="2023-06-14T11:58:04 EDT" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:58:04 EDT" name="setUp" finished-at="2023-06-14T11:58:08 EDT" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:58:08 EDT" name="loginTest" finished-at="2023-06-14T11:58:11 EDT" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.LoginPageTest@516be40f]" started-at="2023-06-14T11:58:11 EDT" name="tearDown" finished-at="2023-06-14T11:58:12 EDT" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practicePOMTestcases.LoginPageTest -->
+      <class name="practicePOMTestcases.SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:12 EDT" name="setUp" finished-at="2023-06-14T11:58:18 EDT" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpwithoutPassword()[pri:1, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:18 EDT" name="signUpwithoutPassword" finished-at="2023-06-14T11:58:19 EDT" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpwithoutPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:19 EDT" name="tearDown" finished-at="2023-06-14T11:58:20 EDT" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:20 EDT" name="setUp" finished-at="2023-06-14T11:58:25 EDT" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpwithmismatchPassword()[pri:2, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:25 EDT" name="signUpwithmismatchPassword" finished-at="2023-06-14T11:58:30 EDT" duration-ms="5370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpwithmismatchPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:30 EDT" name="tearDown" finished-at="2023-06-14T11:58:31 EDT" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:31 EDT" name="setUp" finished-at="2023-06-14T11:58:36 EDT" duration-ms="4266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpwithExistingUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:36 EDT" name="signUpwithExistingUser" data-provider="dp" finished-at="2023-06-14T11:58:41 EDT" duration-ms="4868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nehan27@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpwithExistingUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practicePOMTestcases.SignUpTest@3c0a50da]" started-at="2023-06-14T11:58:41 EDT" name="tearDown" finished-at="2023-06-14T11:58:42 EDT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practicePOMTestcases.SignUpTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
